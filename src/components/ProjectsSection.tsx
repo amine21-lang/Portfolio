@@ -6,7 +6,7 @@ import weeasyorderImage from "../assets/WEEASYORDER.png";
 import EasyScienceImage from "../assets/EasyScience.png";
 import TrafficGNNImage from "../assets/TrafficGNN.png";
 import SafeGuardianAIImage from "../assets/SafeGuardianAI.png";
-import PortfolioImage from "../assets/Portfolio.png";
+import PortfolioImage from "../assets/PORTFOLIO.png";
 
 const projects = [
   {
