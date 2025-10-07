@@ -119,35 +119,43 @@ const skillsByCategory = [
   },
 ];
 
+
+
 const SkillsCategorized = () => {
   return (
     <section
       id="skills"
-      className="  bg-gradient-to-r from-[#000957] to-[#4e2c54]  text-white py-16 "
+      className="bg-gradient-to-r from-[#000957] to-[#4e2c54] text-white py-12 sm:py-16 px-4 sm:px-6"
       style={{ fontFamily: "'Times New Roman', serif" }}
     >
-      <h2 className="text-4xl font-bold mb-12 text-center">Skills</h2>
-      {skillsByCategory.map(({ category, items }) => (
-        <div key={category} className="mb-10">
-          {/* Category title aligned left on large screens, center on small */}
-          <h3 className="text-2xl font-bold mb-4 text-left lg:text-center text-white/90">
-            {category}
-          </h3>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {items.map(({ name, icon }) => (
-              <li
-                key={name}
-                className="flex items-center gap-3 bg-white/10 rounded-md p-3 hover:bg-white/20 transition cursor-default max-w-[250px]"
-              >
-                <div className="text-2xl">
-                  {icon || <span className="w-6 h-6" />}
-                </div>
-                <span className="text-lg font-semibold">{name}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-10 md:mb-12 text-center">
+        Skills
+      </h2>
+
+      <div className="w-[90%] lg:max-w-6xl mx-auto space-y-8 sm:space-y-10">
+        {skillsByCategory.map(({ category, items }) => (
+          <div key={category}>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-center text-white/90">
+              {category}
+            </h3>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
+              {items.map(({ name, icon }) => (
+                <li
+                  key={name}
+                  className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 hover:bg-white/20 hover:scale-105 transition-all duration-300 cursor-default border border-white/10"
+                >
+                  <div className="text-xl sm:text-2xl flex-shrink-0">
+                    {icon || <span className="w-6 h-6" />}
+                  </div>
+                  <span className="text-sm sm:text-base lg:text-lg font-semibold">
+                    {name}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

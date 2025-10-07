@@ -1,12 +1,12 @@
 import ProjectCard from "./ProjectCard ";
 import landingImage from "../assets/landing.png";
-import RhythmfyImage from "../assets/rhythmfy.png";
+import RhythmfyImage from "../assets/Rhythmfy.png";
 import ArtSphereImage from "../assets/ArtSphere.jpg";
 import weeasyorderImage from "../assets/WEEASYORDER.png";
 import EasyScienceImage from "../assets/EasyScience.png";
 import TrafficGNNImage from "../assets/TrafficGNN.png";
 import SafeGuardianAIImage from "../assets/SafeGuardianAI.png";
-import PortfolioImage from "../assets/Portfolio.png";
+import PortfolioImage from "../assets/PORTFOLIO.png";
 
 const projects = [
   {
