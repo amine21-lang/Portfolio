@@ -20,7 +20,7 @@ const Hero = () => {
     if (selectedLang === "en") {
       filePath = "/assets/resume.pdf";
     } else if (selectedLang === "fr") {
-      filePath = "/assets/cv.pdf";
+      filePath = "/assets/CV__Ahmed Amine_ABBACH.pdf";
     }
 
     if (filePath) {
@@ -85,7 +85,6 @@ const Hero = () => {
           </p>
 
           <div className="flex space-x-6 relative">
-           
             <div className="relative">
               <button
                 onClick={() => setShowLangMenu(!showLangMenu)}
@@ -100,7 +99,7 @@ const Hero = () => {
                     onClick={() => handleLangClick("en")}
                     className="block px-4 py-2 hover:bg-gray-200 w-full text-left"
                   >
-                     English
+                    English
                   </button>
                   <button
                     onClick={() => handleLangClick("fr")}
@@ -112,19 +111,14 @@ const Hero = () => {
               )}
             </div>
 
-            
             <a
               href="#contact"
               className="px-6 py-2 bg-transparent border border-white text-white rounded-lg font-semibold hover:bg-white hover:text-[#4e2c54] transition"
             >
               Contact Me
             </a>
-            
           </div>
-          
-          
         </div>
-        
       </div>
 
       {/* Modal */}
@@ -153,7 +147,6 @@ const Hero = () => {
           </div>
         </div>
       )}
-      
     </section>
   );
 };
