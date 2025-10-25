@@ -7,7 +7,6 @@ import {
   SiSpringboot,
   SiMysql,
   SiOracle,
-  SiUml,
   SiPhp,
   SiGitlab,
   SiGithub,
@@ -19,18 +18,21 @@ import {
   SiSharp,
   SiFigma,
   SiMongodb,
+  SiCss3,
+  SiHtml5,
 } from "react-icons/si";
 
 import { FaPython, FaJava } from "react-icons/fa";
 import { TbCloudCog } from "react-icons/tb";
 import { SiJavascript, SiTypescript, SiReact } from "react-icons/si";
 
+
 const skillsByCategory = [
   {
     category: "Backend",
     items: [
       { name: "Java", icon: <FaJava className="text-red-400" /> },
-      { name: "JavaFX" },
+
       { name: "JEE Servlet" },
       { name: "JPA" },
       { name: "CDI" },
@@ -47,8 +49,8 @@ const skillsByCategory = [
   {
     category: "Frontend",
     items: [
-      { name: "HTML", icon: <SiJavascript className="text-orange-500" /> },
-      { name: "CSS", icon: <SiTailwindcss className="text-blue-500" /> },
+      { name: "HTML", icon: <SiHtml5 className="text-orange-500" /> },
+      { name: "CSS", icon: <SiCss3 className="text-blue-500" /> },
       {
         name: "JavaScript",
         icon: <SiJavascript className="text-yellow-400" />,
@@ -60,31 +62,33 @@ const skillsByCategory = [
         name: "Tailwind CSS",
         icon: <SiTailwindcss className="text-teal-400" />,
       },
+      { name: "JavaFX", icon: <FaJava className="text-red-400" /> },
       { name: "Flutter", icon: <SiFlutter className="text-blue-300" /> },
     ],
   },
   {
-    category: "Langages de Programmation",
+    category: "Programming Languages",
     items: [
+      { name: "Java", icon: <FaJava className="text-red-400" /> },
       { name: "C", icon: <SiC className="text-gray-400" /> },
       { name: "Python", icon: <FaPython className="text-yellow-300" /> },
-      { name: "Java", icon: <FaJava className="text-red-400" /> },
+
       { name: "C#", icon: <SiSharp className="text-purple-700" /> },
       { name: "Dart", icon: <SiDart className="text-blue-500" /> },
     ],
   },
   {
-    category: "Base de données",
+    category: "Databases",
     items: [
-      { name: "Oracle", icon: <SiOracle className="text-red-500" /> },
       { name: "MySQL", icon: <SiMysql className="text-blue-400" /> },
+      { name: "Oracle", icon: <SiOracle className="text-red-500" /> },
       { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
     ],
   },
   {
-    category: "Méthodes d'analyse et de modélisation",
+    category: "Analysis & Modeling Methods",
     items: [
-      { name: "UML", icon: <SiUml className="text-gray-400" /> },
+      { name: "UML" },
       { name: "Merise" },
       {
         name: "Design Patterns (Singleton, Observer, MVC, Chain of Responsibility...)",
@@ -92,7 +96,7 @@ const skillsByCategory = [
     ],
   },
   {
-    category: "DevOps & Outils de Déploiement",
+    category: "DevOps & Deployment Tools",
     items: [
       { name: "GitHub", icon: <SiGithub className="text-gray-400" /> },
       { name: "GitLab", icon: <SiGitlab className="text-pink-600" /> },
@@ -101,14 +105,14 @@ const skillsByCategory = [
     ],
   },
   {
-    category: "Systèmes d'Exploitation",
+    category: "Operating Systems",
     items: [
       { name: "Linux", icon: <SiLinux className="text-green-600" /> },
       { name: "Windows" },
     ],
   },
   {
-    category: "Outils de Design",
+    category: "Design Tools",
     items: [
       { name: "Figma", icon: <SiFigma className="text-rose-300" /> },
       {
@@ -118,8 +122,6 @@ const skillsByCategory = [
     ],
   },
 ];
-
-
 
 const SkillsCategorized = () => {
   return (

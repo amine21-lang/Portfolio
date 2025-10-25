@@ -1,5 +1,3 @@
-
-
 import { ChevronDown } from "lucide-react";
 import ContactBar from "./ContactBar";
 
@@ -22,21 +20,22 @@ const AboutMe = () => (
         className="text-gray-300 text-xl leading-8 md:leading-9 mb-12"
         style={{ fontFamily: "'Times New Roman', serif" }}
       >
-        I am a passionate software engineering student who enjoys turning ideas
-        into working solutions. By working on different projects, I improve my
-        skills and learn new technologies like React, TypeScript, and Next.js. I
-        am also curious about new fields like machine learning and artificial
-        intelligence. I find these technologies interesting because they can
-        solve real problems and create new possibilities. I like to face
-        challenges, keep learning, and work with others to build useful
-        software. My goal is to create efficient and innovative systems that can
-        make a difference. I am always ready to take on new projects where I can
-        contribute and grow as a developer.
+        I'm a software engineering student passionate about transforming ideas
+        into elegant, functional solutions. Through hands-on project experience,
+        I continuously expand my technical expertise while exploring emerging
+        fields that push the boundaries of what's possible in software
+        development.
         <br />
         <br />
-        Outside of coding, I enjoy playing video games, practicing design, and
-        doing sports like football and kickboxing. I also like to keep improving
-        by reading books, listening to podcasts, and watching documentaries.
+        I thrive on solving complex problems, value collaborative development,
+        and approach each challenge as an opportunity for growth. My focus is on
+        building scalable, efficient systems that deliver real value and
+        meaningful impact.
+        <br />
+        <br />
+        Beyond coding, I maintain balance through gaming, design work, and
+        athletics. I'm committed to continuous learning through reading,
+        podcasts, and staying curious about the world around me.
       </p>
     </div>
 
@@ -50,5 +49,3 @@ const AboutMe = () => (
 );
 
 export default AboutMe;
-
-

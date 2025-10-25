@@ -18,7 +18,7 @@ const Hero = () => {
     let filePath = "";
 
     if (selectedLang === "en") {
-      filePath = "/assets/resume.pdf";
+      filePath = "/assets/resume__Ahmed Amine_ABBACH.pdf";
     } else if (selectedLang === "fr") {
       filePath = "/assets/CV__Ahmed Amine_ABBACH.pdf";
     }
@@ -90,7 +90,7 @@ const Hero = () => {
                 onClick={() => setShowLangMenu(!showLangMenu)}
                 className="px-6 py-2 bg-[#2A4759] text-white rounded-lg font-semibold shadow-lg hover:bg-[#243c4b] transition"
               >
-                Download CV
+                Download Resume
               </button>
 
               {showLangMenu && (
