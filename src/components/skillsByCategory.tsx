@@ -20,12 +20,12 @@ import {
   SiMongodb,
   SiCss3,
   SiHtml5,
+  SiAngular,
 } from "react-icons/si";
 
 import { FaPython, FaJava } from "react-icons/fa";
 import { TbCloudCog } from "react-icons/tb";
 import { SiJavascript, SiTypescript, SiReact } from "react-icons/si";
-
 
 const skillsByCategory = [
   {
@@ -62,6 +62,7 @@ const skillsByCategory = [
         name: "Tailwind CSS",
         icon: <SiTailwindcss className="text-teal-400" />,
       },
+      { name: "Angular", icon: <SiAngular className="text-red-400" /> },
       { name: "JavaFX", icon: <FaJava className="text-red-400" /> },
       { name: "Flutter", icon: <SiFlutter className="text-blue-300" /> },
     ],
@@ -91,7 +92,7 @@ const skillsByCategory = [
       { name: "UML" },
       { name: "Merise" },
       {
-        name: "Design Patterns (Singleton, Observer, MVC, Chain of Responsibility...)",
+        name: "Design Patterns",
       },
     ],
   },

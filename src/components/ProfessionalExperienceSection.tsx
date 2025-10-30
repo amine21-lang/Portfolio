@@ -1,5 +1,3 @@
-
-
 import { motion } from "framer-motion";
 import { FaBriefcase } from "react-icons/fa";
 
@@ -7,7 +5,7 @@ const experienceData = [
   {
     title: "Intern in the IT Department",
     company: "SofiMed, Casablanca, Morocco",
-    date: "July 2025 – September 2025 (3 months)",
+    date: "June 2025 – August 2025 (3 months)",
     description: [
       "Designed and developed the SofiMedTransfer application for secure file transfer.",
       "Implemented real-time communication features using WebSocket.",
@@ -21,7 +19,7 @@ const experienceData = [
   {
     title: "Intern in the IT Department",
     company: "Wedomatic, Casablanca, Morocco",
-    date: "May 2024 – August 2024 (3 months)",
+    date: "June 2024 – August 2024 (3 months)",
     description: [
       "Update the WEEASYORDER application with a new, optimized version.",
       "Develop the user interface using React and TypeScript.",
@@ -33,7 +31,7 @@ const experienceData = [
   {
     title: "Final Year Internship (PFE)",
     company: "Wedomatic, Casablanca, Morocco",
-    date: "April 2023 – June 2023 (2 months)",
+    date: "April 2023 – June 2023 (3 months)",
     description: [
       "Development of WEEASYORDER, a web application for managing table orders in restaurants and cafés.",
     ],

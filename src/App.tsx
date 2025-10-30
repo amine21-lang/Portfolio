@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe";
+import CertificateSection from "./components/CertificateSection";
 import EducationSection from "./components/EducationSection";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -28,6 +29,9 @@ function App() {
       </div>
       <div id="projects">
         <ProjectsSection />
+      </div>
+      <div id="certificates">
+        <CertificateSection />
       </div>
       <div id="contact">
         <MessageComponent />
