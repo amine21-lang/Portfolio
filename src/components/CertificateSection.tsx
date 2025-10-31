@@ -3,15 +3,15 @@ import FoundationImg from "../assets/foundation.png";
 import AssociateJava8 from "../assets/AssociateJava8.png";
 
 export const certificates = [
-  // {
-  //   id: 1,
-  //   title: " Oracle Certified Professional, Java SE 8 Programmer II (1Z0-809)",
-  //   issuer: "Oracle",
-  //   date: "31 October 2025",
-  //   imageUrl: "https://www.yourimageurl.com/1",
-  //   credentialUrl:
-  //     "/",
-  // },
+  {
+    id: 1,
+    title: " Oracle Certified Professional, Java SE 8 Programmer II (1Z0-809)",
+    issuer: "Oracle",
+    date: "31 October 2025",
+    imageUrl: "https://www.yourimageurl.com/1",
+    credentialUrl:
+      "/",
+  },
   {
     id: 2,
     title: "Oracle Certified Associate, Java SE 8 Programmer I (1Z0-808)",
