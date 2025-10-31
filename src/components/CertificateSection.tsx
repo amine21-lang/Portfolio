@@ -1,5 +1,5 @@
 import CertificateCard from "./CertificateCard";
-import FoundationImg from "../assets/foundation.png";
+import FoundationImg from "../assets/Foundation.png";
 import AssociateJava8 from "../assets/AssociateJava8.png";
 
 export const certificates = [
@@ -9,8 +9,7 @@ export const certificates = [
     issuer: "Oracle",
     date: "2025",
     imageUrl: "https://www.yourimageurl.com/1",
-    credentialUrl:
-      "/",
+    credentialUrl: "/",
   },
   {
     id: 2,
