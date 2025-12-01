@@ -27,7 +27,7 @@ export const certificates = [
     date: "30 January 2025",
     imageUrl: FoundationImg,
     credentialUrl:
-      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=example2",
+      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=304B9A9FBB9715306EBC9B1F5B08BAA9706A77B3E7695630B5163635FB76A0EB",
   },
 ];
 
