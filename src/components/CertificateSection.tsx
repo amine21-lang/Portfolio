@@ -9,9 +9,9 @@ export const certificates = [
     title: " Oracle Certified Professional, Java SE 8 Programmer II (1Z0-809)",
     issuer: "Oracle",
     date: "03 October 2025",
-    imageUrl:
+    imageUrl: ProJava8,
+    credentialUrl:
       "https://catalog-education.oracle.com/ords/certview/sharebadge?id=182D7A4055B77F89E3693DB3C00DF238B1A1D5BABCA54CF38326B6803CEC2BDD",
-    credentialUrl: ProJava8,
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const certificates = [
     date: "29 October 2025",
     imageUrl: AssociateJava8,
     credentialUrl:
-      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=51B1593AA2748788BA7C3DFFFA759D0FD4191FEA3D3E19A2C47E67C7F406EEB1",
+      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=8041AD0DBDB3188AA5CE4DFA42576786512851B7956FC4F7DA1BAC1BDA8F4195",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const certificates = [
     date: "30 January 2025",
     imageUrl: FoundationImg,
     credentialUrl:
-      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=304B9A9FBB9715306EBC9B1F5B08BAA9706A77B3E7695630B5163635FB76A0EB",
+      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=5F1A70F55036A785A0BB6FF937811D55D56F98195CE91748CF286D50856E682F",
   },
 ];
 
