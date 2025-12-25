@@ -1,15 +1,17 @@
 import CertificateCard from "./CertificateCard";
 import FoundationImg from "../assets/Foundation.png";
 import AssociateJava8 from "../assets/AssociateJava8.png";
+import ProJava8 from "../assets/Oracle Certified Professional, Java SE 8 Programmer.png";
 
 export const certificates = [
   {
     id: 1,
     title: " Oracle Certified Professional, Java SE 8 Programmer II (1Z0-809)",
     issuer: "Oracle",
-    date: "2025",
-    imageUrl: "https://www.yourimageurl.com/1",
-    credentialUrl: "/",
+    date: "03 October 2025",
+    imageUrl:
+      "https://catalog-education.oracle.com/ords/certview/sharebadge?id=182D7A4055B77F89E3693DB3C00DF238B1A1D5BABCA54CF38326B6803CEC2BDD",
+    credentialUrl: ProJava8,
   },
   {
     id: 2,
