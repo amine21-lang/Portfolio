@@ -8,7 +8,7 @@ export const certificates = [
     id: 1,
     title: " Oracle Certified Professional, Java SE 8 Programmer II (1Z0-809)",
     issuer: "Oracle",
-    date: "03 October 2025",
+    date: "03 December 2025",
     imageUrl: ProJava8,
     credentialUrl:
       "https://catalog-education.oracle.com/ords/certview/sharebadge?id=182D7A4055B77F89E3693DB3C00DF238B1A1D5BABCA54CF38326B6803CEC2BDD",
