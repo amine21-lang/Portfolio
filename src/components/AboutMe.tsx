@@ -20,7 +20,7 @@ const AboutMe = () => (
         className="text-gray-300 text-xl leading-8 md:leading-9 mb-12"
         style={{ fontFamily: "'Times New Roman', serif" }}
       >
-        I'm a software engineering student passionate about transforming ideas
+        I'm a software engineering graduate passionate about transforming ideas
         into elegant, functional solutions. Through hands-on project experience,
         I continuously expand my technical expertise while exploring emerging
         fields that push the boundaries of what's possible in software

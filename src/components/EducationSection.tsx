@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    title: "Software Engineering Student",
+    title: "Software Engineer Graduate",
     institution: "Faculty of Sciences and Techniques, Settat",
-    date: "Since 2023",
-    description: "Currently in the last year of engineering studies.",
+    date: "2023 – 2026",
+    description: "Graduated with an engineering degree in Software Engineering.",
     icon: <FaGraduationCap />,
     type: "education",
   },

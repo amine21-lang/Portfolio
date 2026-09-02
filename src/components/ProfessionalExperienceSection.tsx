@@ -2,6 +2,23 @@ import { motion } from "framer-motion";
 import { FaBriefcase } from "react-icons/fa";
 
 const experienceData = [
+    {
+    title: "Final Year Internship (PFE) — Recertification and Control of Traders' Access to Financial Markets (MAPI)",
+    company: "Société Générale Global Solution Centre Morocco",
+    date: "March 2026 – now",
+    description: [
+      "Designed and developed MAPI, a web platform for recertifying and controlling traders' access to external trading platforms, using Spring Boot (Java) and FastAPI (Python) for the back-end, PostgreSQL, OAuth2/JWT authentication, and React (TypeScript) for the front-end.",
+      "Managed and monitored traders' access requests to external trading platforms, integrating with the group's internal reference system for data validation and quality control.",
+      "Developed a pipeline to extract and process daily order files from traders across 30+ external trading platforms, as well as previously unexploited files provided by those platforms.",
+      "Implemented automated access classification (valid, unidentified, ineligible) and triggered activation/removal requests based on control results.",
+      "Identified trader and sales usage patterns per platform (Voice, RFQ, Block Trading, etc.) to refine access oversight.",
+      "Led an annual recertification campaign for trader access, handling anomalies and corrective actions (removal, activation) to produce a complete and reliable access reference.",
+      "Migrated the employee/trader data source to a more reliable reference system and built automated synchronization jobs for daily data updates.",
+      "Designed a full escalation process across internal trading desks, with automated data extraction via dedicated APIs.",
+      "Built KPI dashboards and reporting for access control oversight (usage by trading desk, scope, and phase).",
+    ],
+    icon: <FaBriefcase />,
+  },
   {
     title: "Intern in the IT Department",
     company: "SofiMed, Casablanca, Morocco",
