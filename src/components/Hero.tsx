@@ -78,7 +78,7 @@ const Hero = () => {
             "Code with purpose, design with clarity."
           </p>
           <p className="text-gray-300 mb-10 max-w-2xl">
-            I'm a software engineering student with a passion for building
+            I'm a software engineering graduate with a passion for building
             scalable and efficient systems. I'm currently looking for
             opportunities to work on exciting projects and learn new
             technologies.
